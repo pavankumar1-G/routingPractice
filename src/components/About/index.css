@@ -1,0 +1,35 @@
+/* Write your CSS code here */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+.about-image {
+  height: 120px;
+  width: 120px;
+}
+.about-heading {
+  color: #6d396b;
+  font-weight: bold;
+}
+.discription {
+  color: #555555;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .about-container{
+    margin-top: 100px;
+  }
+  .about-image {
+    height: 250px;
+    width: 250px;
+  }
+  .about-heading {
+    font-size: 50px;
+  }
+  .discription {
+    font-size: 30px;
+  }
+}
